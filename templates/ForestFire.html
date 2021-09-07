@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Forest Fire</title>
+
+  </head>
+  <body>
+    <form class="container" action='/predict' method="POST">
+      <h1>Forest Fire Prevention</h1>
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatingTemp" name = "Temp" placeholder="Temperature">
+        <label for="floatingTemp">Temperature</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatingOx" name="Oxy" placeholder="Oxygen">
+        <label for="floatingOx">Oxygen</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatingHumid" name="Humid" placeholder="Humidity">
+        <label for="floatingHumid">Humidity</label>
+      </div>
+      <div class="form-floating mb-3">
+        <button type="submit" class="btn btn-danger">Predict</button>
+      </div>
+      <div class="mb-3">
+        {{pred}}
+      </div>
+    </form>
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
