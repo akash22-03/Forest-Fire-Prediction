@@ -1,7 +1,7 @@
 # Forest-Fire-Prediction
 Machine Learning Project
 
-<h3>Executing app.py executes this Webpage : </h3>
+<h3>app.py executes this Webpage : </h3>
 <img src="static/img/Screenshot%20(995).png">
 <br>
 <br>
