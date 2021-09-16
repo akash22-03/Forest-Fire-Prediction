@@ -1,7 +1,6 @@
 # Forest-Fire-Prediction
 
-<p>This is Full-Stack Web-based project.<br>
-Front-end built using HTML, CSS and Bootstrap<br>Back-end is built using Python and Flask built on a Pickle Machine Learning Model that uses Logistic Regression Algorithm to
+<p>This is full-stack project, front-end built using HTML, CSS and Bootstrap,<br>Back-end is built using Python and Flask built on a Pickle Machine Learning Model that uses Logistic Regression Algorithm to
 predict the occurance of Fire in the Forest.</p>
 <h3><a href = "http://preventforestfire.pythonanywhere.com/">Visit Webpage</a></h3>
 <h3>app.py executes this Webpage : </h3>
